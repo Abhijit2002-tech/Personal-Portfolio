@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="pf.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Abhijit Das</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="portfolio-tab" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aboutme-tab" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="skills-tab" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="projects-tab" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="container my-5">
+        <div class="section-title">
+            <h2>Portfolio</h2>
+        </div>
+        <div class=" photo">
+            <img src="p2.jpg" class="rounded-circle" alt="Abhijit Das">
+            <div>
+            <h1>Abhijit Das</h1>
+            <p><strong>Software Engineer | Full Stack Developer</strong></p>
+        </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div id="aboutme" class="container my-5">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="section-content">
+            <p>Hello! I'm Abhijit, a passionate Software Engineer with a focus on full-stack web development. I love
+                working with modern technologies to build scalable and efficient applications. My expertise includes
+                front-end and back-end development, and I'm always looking to improve my skills and explore new
+                technologies.</p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="container my-5">
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+        <div class="section-content">
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>My Sql</li>
+                <li>Git</li>
+                <li>Java</li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container my-5">
+        <div class="section-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="section-content">
+            <div class="project-item">
+                <b>Portfolio Website</b> - A personal portfolio website to showcase my work and achievements.
+            </div>
+            <div class="project-item">
+                <b>E-commerce Website</b> - A fully functional e-commerce Website only using HTML,CSS & JavaScript.
+            </div>
+            <div class="project-item">
+                <b>Restaurant Website</b> - A Food ordering Website.
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container my-5">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="section-content">
+            <form>
+                <input type="text" class="form-control" placeholder="Your Name" required><br>
+                <input type="email" class="form-control" placeholder="Your Email" required><br>
+                <textarea class="form-control" placeholder="Your Message" rows="4" required></textarea><br>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">© 2025 Abhijit Das. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
